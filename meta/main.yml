@@ -1,8 +1,8 @@
 galaxy_info:
   role_name: docker-mailhog
-  author: Olivier Pichon <op@united-asian.com>
+  author: Olivier Pichon <op@dzango.com>
   description: Installs mailhog as a docker container
-  company: United Asian Management Limited
+  company: Dzango Technologies Limited
 
   license: MIT
 
