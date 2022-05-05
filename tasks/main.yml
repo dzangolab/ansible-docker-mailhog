@@ -6,7 +6,7 @@
 
 - name: Run mailhog mail server
   docker_container:
-    image: mailhog/mailhog
+    image: "{{ mailhog_image }}"
     labels:
       traefik.backend: mailhog
       traefik.frontend.rule: "Host:{{ mailhog_hostname }}"
