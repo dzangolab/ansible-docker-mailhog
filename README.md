@@ -12,9 +12,8 @@ This role requires Ansible 1.2 or higher.
 Ansible variables are listed below with their default values.
 
 ```
-mailhog_hostname
-mailhog_network
-mailhog_user
+mailhog_hostname: mailhog
+mailhog_network: mailhog
 mailhog_image
 ```
 
@@ -24,7 +23,7 @@ mailhog_image
 ---
 - hosts: webservers
   roles:
-  	- opichon.docker-services
+  	- dzangolab.docker_mailhog
 ```
 
 ## License
